@@ -11,8 +11,15 @@
   color: blue;
   font-size: 1.5em;
 }
+.hyperLink:hover{
+  background-color: orange;
+}
 .hyperLink{
-
+  text-decoration: none;
+}
+blockquote{
+  background-color: black;
+  color: orange;
 }
 table{
   table-layout: fixed;
@@ -33,6 +40,17 @@ thead th:nth-child(3){
 thead th:nth-child(4){
   width: 15%;
 }
+tbody td:nth-child(odd){
+
+}
+tbody td:nth-child(even){
+  background-color: lightgrey;
+  opacity: 50%;
+}
+tfoot th:nth-child(even){
+  background-color: lightgrey;
+  opacity: 50%;
+}
 th,td{
   padding: 10px;
   border: 2px solid black;
@@ -47,6 +65,18 @@ thead{
   font-weight: bold;
   font-size: large;
   color: orange;
+}
+ul{
+  list-style-type: square;
+
+}
+#teamRoster > li:first-child{
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+}
+#teamRoster > li:last-child{
+  background-repeat: no-repeat;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
 }
 h1{
 
