@@ -1,0 +1,56 @@
+#id{
+
+}
+#teamRoster{
+
+}
+#scoreBoard{
+
+}
+.subjectHeader{
+  color: blue;
+  font-size: 1.5em;
+}
+.hyperLink{
+
+}
+table{
+  table-layout: fixed;
+  width: 80%;
+  border: 3px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+thead th:nth-child(1){
+  width: 25%;
+}
+thead th:nth-child(2){
+  width: 20%;
+}
+thead th:nth-child(3){
+  width: 20%;
+}
+thead th:nth-child(4){
+  width: 15%;
+}
+th,td{
+  padding: 10px;
+  border: 2px solid black;
+}
+caption{
+  font-size: x-large;
+  font-weight: bolder;
+  color: red;
+  text-shadow: 2px 2px 4px black;
+}
+thead{
+  font-weight: bold;
+  font-size: large;
+  color: orange;
+}
+h1{
+
+}
+p{
+
+}
