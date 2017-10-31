@@ -78,9 +78,6 @@ ul{
   background-repeat: no-repeat;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
 }
-h1{
-
-}
-p{
-
+#checkbox-grid{
+  list-style-type: none;
 }
